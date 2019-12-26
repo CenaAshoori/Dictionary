@@ -8,9 +8,13 @@ and also you can see translation of word by searching word
 and a feature is that you can search all of the word that start with a same char 
 (actuly showall() method find all of the word (by dfs) and show to you)
 
-for ex:(input)  
+in below example i ignore then translations  
+
+ex: input    >>  
 aaa-aba-abb-acc  
-bbc-bbb  
+bbc-bbb    
+
+  
 __ __
 if your search is ab*    
 the result is :  
@@ -19,3 +23,18 @@ __ __
 if your search is a*    
 the result is :  
                 aaa-aba-abb-acc  
+
+
+
+
+__ __  
+the format of input.txt file is like example below
+
+ **word**  
+ **meaning**   
+ **word**  
+ **meaning**  
+ **word**  
+ **meaning**  
+ **word**  
+ **meaning**  
